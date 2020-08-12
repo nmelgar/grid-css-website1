@@ -60,3 +60,22 @@ img{
     font-size: 1.1rem;
     box-shadow: var(--shadow);
 }
+
+.main-nav a:hover{
+    background: var(--dark);
+    color: var(--light);
+}
+
+/*Top Container*/
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: /*Aresas for content to go, like a rectangle*/
+        'showcase showcase top-box-a'
+        'showcase showcase top-box-b';
+}
+
+/*Showcase*/
+.showcase{
+    grid-area: showcase;
+}
